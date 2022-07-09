@@ -27,7 +27,7 @@ button{
     flex-direction: column;
     width: 75vw;
     margin: 10px auto;
-    border: 2px solid red;
+
 }
 
 #category-row {

@@ -1,6 +1,17 @@
 //initialize the game board on page load 
+initCatRow()
 initboard()
 
+function initCatRow() {
+    let catRow = document.getElementById('category-row')
+
+    for (let j=0; j<6; j++){
+        let box= document.createElement('div')
+        box.className = 'clue-box category-box'
+        catRow.appendChild(box)
+    }
+
+}
 
 function initboard() {
     let board = document.getElementById('clue-board')
