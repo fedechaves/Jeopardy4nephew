@@ -37,3 +37,5 @@ function initboard() {
 function getClue(){
     console.log('have a nice day')
 }
+
+// API
